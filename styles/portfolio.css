@@ -19,6 +19,20 @@
   padding:18px 35px;
   cursor:pointer;
 }
+.section-heading{
+  max-width: 827px;
+  text-align: center;
+}
+.section-heading h2{
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.section-heading p{
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  color:#757575;
+}
 /* main style */
 header{
   background-color: #b87c60;
@@ -72,7 +86,7 @@ align-items: center;
 font-size: 45px;
 font-weight: 600;
 color: #474747;
-margin:5px
+margin:5px;
 
 }
 #banner .banner-content h1{
@@ -91,4 +105,24 @@ margin:5px
   max-width: 585px;
   vertical-align: middle;
   /* image use korle oneksomoy gap chole ashe.gap remove korte vertical align middle use kora hoyeche */
+}
+#about{
+  padding-top:130px;
+}
+#about .about-container{
+  width:71%;
+  max-width: 1140px;
+  margin:0 auto;
+  text-align: center;
+  background-color: #FFF8F3;
+  padding:130px 156px;
+}
+#about .about-container .about-info{
+  display: flex;
+justify-content: space-around;
+}
+.about-info .info-card p{
+   font-size: 20px;
+  line-height: 30px;
+  color:#757575;
 }
