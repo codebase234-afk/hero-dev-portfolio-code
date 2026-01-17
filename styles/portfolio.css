@@ -1,0 +1,55 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  /* using border-box so that padding always stays inside border */
+}
+/* shared style */
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn{
+  color:white;
+  font-size: 20px;
+  font-weight:bold ;
+  background-color: #e16512;
+  border:none;
+  border-radius: 5px;
+  padding:18px 35px;
+}
+/* main style */
+header{
+  background-color: #ffd7bf;
+  padding-top: 50px;
+}
+.logo h2{
+  font-size: 45px;
+  font-weight: 900px;
+}
+.color-orange{
+color: #e16512;
+}
+
+nav{
+  width:71%;
+  /* puro device er viewport 1600px, tar 71% space niye nibe and max 1140px er moddhei thakbe. */
+  max-width: 1140px;
+  /* border: 1px solid rebeccapurple; */
+  margin: 0px auto;
+  /* used this margin ratio so that contents stays in the middle */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* parent class */
+nav .menu{
+display: flex;
+list-style-type: none;
+gap: 51px;
+align-items: center;
+}
+nav .menu a{
+color:darkblue;
+text-decoration: none;
+}
